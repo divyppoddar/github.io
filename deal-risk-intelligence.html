@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Deal Risk Intelligence — Case study — Divy</title>
+  <meta name="description" content="Deal Risk Intelligence case study — forecasting & pipeline intelligence.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="canonical" href="https://divyppoddar.github.io/divyppoddar/deal-risk-intelligence.html">
+</head>
+<body>
+
+<section class="site-page" id="page-case">
+<header class="nav" role="navigation" aria-label="Primary">
+    <div class="wrap nav__in">
+      <a class="brand" href="index.html"><span class="mark">D</span> Divy</a>
+      <nav class="nav__links" aria-label="Main">
+        <a href="work.html" aria-current="page">Work</a>
+        <a href="tools.html">Tools</a>
+        <a href="about.html">About</a>
+      </nav>
+      <div class="nav__sp"></div>
+      <a class="btn btn--ghost btn--sm" href="#">Résumé</a>
+      <a class="btn btn--sm" href="index.html#contact">Let’s talk</a>
+    </div>
+  </header>
+
+  <section class="cs-hero">
+    <div class="wrap">
+      <a class="back" href="work.html">← All work</a>
+      <span class="eyebrow">Case study · Forecasting · Pipeline</span>
+      <h1 class="display">Deal Risk Intelligence System</h1>
+      <p class="lead">Deals were dying after reaching advanced stages despite strong early pipeline. Analysis of 30+ lost deals surfaced consistent patterns. Built an LLM-powered engine to surface ris[...]</p>
+      <div class="taglist">
+        <span class="tag tag--solid">Role: Lead Revenue Operations</span>
+        <span class="tag">Industry: B2B SaaS</span>
+        <span class="tag">Q4 2025 · 4 weeks</span>
+      </div>
+      <div class="ph hero-ph"><span class="ph__tag">hero — dashboard before / after</span></div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:56px">
+    <div class="wrap layout">
+      <aside class="aside">
+        <div class="blk"><div class="k">Client</div><div class="v">B2B SaaS · Series A · AR Automation</div></div>
+        <div class="blk"><div class="k">Scope</div><div class="v">Deal risk scoring &amp; pipeline intelligence</div></div>
+        <div class="blk"><div class="k">Stack</div><div class="v">Claude API · HubSpot API · JavaScript</div></div>
+        <div class="blk"><div class="k">Timeline</div><div class="v">Q4 2025 · 4 weeks</div></div>
+        <div class="blk">
+          <div class="k">Headline outcome</div>
+          <div class="out">
+            <div class="big"><em>65%</em></div>
+            <div class="cap">forecast accuracy — up from 30% at baseline</div>
+          </div>
+        </div>
+      </aside>
+
+      <div class="body">
+        <div class="blk">
+          <h2 class="display">Context</h2>
+          <p>A Series A B2B SaaS team with $6M quarterly pipeline. Deals were consistently dying at advanced stages — technical evaluation, pricing, contracts — despite strong early momentum. An a[...]</p>
+        </div>
+
+        <div class="blk">
+          <h2 class="display" style="color:var(--blue-ink)">The problem</h2>
+          <p>The sales head needed a way to surface these risks early enough to act — not after the deal was already lost. Gut-feel pipeline reviews were the only tool available, and they weren’t [...]</p>
+          <div class="pullquote">“The hardest part wasn’t the build. It was getting the sales head to trust the model’s read on a deal over his own gut feel.”</div>
+        </div>
+
+        <div class="blk">
+          <h2 class="display">What I built</h2>
+          <p>An LLM-powered deal risk engine using Claude and the HubSpot API. The system reads across call transcripts, AE notes, prospect emails, and conversation history — combined with structure[...]</p>
+          <p>For every deal, it outputs three things: identified risks, pressure-test questions for the next pipeline review, and historical similarity matches to past lost deals. Sales leadership use[...]</p>
+          <div class="steps">
+            <div class="ph"><span class="ph__tag">data model — dbt lineage</span></div>
+            <div class="ph ph--blue"><span class="ph__tag">looker exec dashboard</span></div>
+          </div>
+        </div>
+
+        <div class="blk">
+          <h2 class="display">Impact</h2>
+          <p>One quarter after launch, the forecast was within 6% of actuals — and Monday mornings got their half-day back.</p>
+          <div class="impact">
+            <div class="card"><div class="n"><em>65%</em></div><div class="k">Forecast accuracy (up from 30%)</div></div>
+            <div class="card"><div class="n"><em>80%</em></div><div class="k">Commit-stage close rate</div></div>
+            <div class="card"><div class="n"><em>30+</em></div><div class="k">Lost deal patterns surfaced</div></div>
+          </div>
+        </div>
+
+        <div class="blk" style="margin-bottom:0">
+          <h2 class="display">Reflection</h2>
+          <p>Call transcripts were the highest-signal input — richer than any structured CRM field. The lasting shift wasn’t the tool itself — it was moving weekly pipeline reviews from AE self-[...]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="nextbar">
+      <a href="deal-risk-intelligence.html">
+        <div><div class="small">Next case study</div><h3 class="display">IVAR — Sales Conversion Recovery</h3></div>
+        <span style="font-size:30px">→</span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="cta" style="padding:84px 0">
+        <h2 class="display">Working on deal risk?</h2>
+        <p class="lead" style="color:#c8c3b9;max-width:480px;margin:14px auto 30px">Happy to share how the engine works and what we learned from the lost deal analysis.</p>
+        <a class="btn btn--blue" href="index.html#contact">Book an intro call</a>
+      </div>
+      <div class="foot__bottom" style="border-top:1px solid #322f2a">
+        <span>© 2026 Divy</span>
+        <a href="index.html">← Back home</a>
+      </div>
+    </div>
+  </footer>
+</section>
+
+</body>
+</html>
